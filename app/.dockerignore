@@ -1,0 +1,12 @@
+# Arquivos que NÃO devem ir pro Docker
+node_modules
+.next
+.git
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+.env
+.env.local
+.env*.local
+*.log
+.DS_Store
+build-site.zip

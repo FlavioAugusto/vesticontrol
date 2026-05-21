@@ -1,0 +1,17 @@
+Build gerado em: 2026-05-21 10:00:00 UTC
+Random ID: c5f2a9d1b3e7-MAY21-1000
+Cache buster!
+
+FIX: textos da capa que faltavam edicao
+- TODOS os 4 textos da capa agora editaveis na admin
+  1. Rotulo superior (ex "COLEÇÃO") + checkbox MOSTRAR
+  2. Nome principal (qualquer nome)
+  3. Descricao (texto fininho) + checkbox MOSTRAR
+  4. Texto do botao (substitui "Ver coleção")
+
+FIX: apagar "Coleção" nao persistia
+- Agora ha checkbox "Mostrar" do lado do campo
+- Desmarcar oculta o texto na home (mesmo se o input voltar pro padrao)
+- Resolve o problema: API strip empty strings ao salvar
+
+Preview no admin mostra todos os 4 textos refletindo as mudanças.

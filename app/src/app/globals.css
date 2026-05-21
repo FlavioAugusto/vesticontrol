@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito+Sans:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-white text-charcoal font-sans antialiased;
+  }
+  h1, h2, h3 { @apply font-serif; }
+}
+
+@layer components {
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 bg-gold text-white px-7 py-3.5 font-sans font-semibold text-xs tracking-[2px] uppercase transition-all duration-300 hover:bg-gold-600 hover:shadow-gold active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-charcoal text-charcoal px-7 py-3.5 font-sans font-semibold text-xs tracking-[2px] uppercase transition-all duration-300 hover:bg-charcoal hover:text-white;
+  }
+  .btn-outline-gold {
+    @apply inline-flex items-center justify-center gap-2 border border-gold text-gold px-7 py-3.5 font-sans font-semibold text-xs tracking-[2px] uppercase transition-all duration-300 hover:bg-gold hover:text-white;
+  }
+  .section-title {
+    @apply font-serif text-3xl md:text-4xl text-charcoal mb-2;
+  }
+  .section-subtitle {
+    @apply font-sans text-charcoal-muted text-xs tracking-[4px] uppercase mb-8 font-semibold;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  .input-field {
+    @apply w-full border border-gray-200 bg-white px-4 py-3 text-sm text-charcoal placeholder-charcoal-muted focus:outline-none focus:border-gold transition-colors;
+  }
+}

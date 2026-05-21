@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <!-- Monograma M coroado — By Marcelo Medeiros -->
+  <g stroke="#1e1a16" stroke-width="11" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <!-- M externa (forma coroa com 2 picos) -->
+    <path d="M30 195 L30 50 L70 50 L120 130 L170 50 L210 50 L210 195" />
+    <!-- M interna (V interno menor) -->
+    <path d="M75 195 L75 95 L120 165 L165 95 L165 195" />
+  </g>
+  <!-- Texto: by MARCELO MEDEIROS -->
+  <text x="120" y="225" text-anchor="middle" font-family="'Nunito Sans', sans-serif" font-size="14" font-weight="600" fill="#1e1a16" letter-spacing="3.5">
+    <tspan font-style="italic" font-weight="400">by</tspan> MARCELO MEDEIROS
+  </text>
+</svg>

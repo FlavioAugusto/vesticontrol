@@ -1,0 +1,7 @@
+import { notFound } from 'next/navigation';
+
+// A home page é servida por src/app/page.tsx
+// Este arquivo existe apenas para o route group (shop) funcionar
+export default function ShopIndexPage() {
+  notFound();
+}

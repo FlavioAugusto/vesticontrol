@@ -1,0 +1,42 @@
+# ─── Dependências e builds (regeneráveis, ocupam muito espaço) ───
+app/node_modules/
+app/.next/
+app/out/
+app/build/
+app/.vercel/
+app/coverage/
+
+# ─── Variáveis de ambiente (NUNCA commitar segredos) ───
+.env
+.env.local
+.env.*.local
+app/.env
+app/.env.local
+app/.env.*.local
+
+# ─── Logs e debug ───
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Sistema operacional ───
+.DS_Store
+Thumbs.db
+*.pem
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── TypeScript build cache ───
+app/*.tsbuildinfo
+app/next-env.d.ts
+
+# ─── Cache do Claude / Cursor ───
+.claude/
+.claude-progress.md
+.cursor/
